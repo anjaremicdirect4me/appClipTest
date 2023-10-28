@@ -11,7 +11,36 @@
 		DD2BDCA32AED1E25004E9D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BDCA22AED1E25004E9D14 /* ContentView.swift */; };
 		DD2BDCA52AED1E26004E9D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDCA42AED1E26004E9D14 /* Assets.xcassets */; };
 		DD2BDCA82AED1E26004E9D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDCA72AED1E26004E9D14 /* Preview Assets.xcassets */; };
+		DD2BDCB52AED23B3004E9D14 /* appClipTestAppClipItselfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BDCB42AED23B3004E9D14 /* appClipTestAppClipItselfApp.swift */; };
+		DD2BDCB72AED23B3004E9D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BDCB62AED23B3004E9D14 /* ContentView.swift */; };
+		DD2BDCB92AED23B4004E9D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDCB82AED23B4004E9D14 /* Assets.xcassets */; };
+		DD2BDCBC2AED23B4004E9D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDCBB2AED23B4004E9D14 /* Preview Assets.xcassets */; };
+		DD2BDCC12AED23B4004E9D14 /* appClipTestAppClipItself.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DD2BDCB22AED23B3004E9D14 /* appClipTestAppClipItself.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2BDCBF2AED23B4004E9D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2BDC952AED1E25004E9D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2BDCB12AED23B3004E9D14;
+			remoteInfo = appClipTestAppClipItself;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD2BDCC52AED23B4004E9D14 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				DD2BDCC12AED23B4004E9D14 /* appClipTestAppClipItself.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DD2BDC9D2AED1E25004E9D14 /* appClipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appClipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +48,24 @@
 		DD2BDCA22AED1E25004E9D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD2BDCA42AED1E26004E9D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2BDCA72AED1E26004E9D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2BDCB22AED23B3004E9D14 /* appClipTestAppClipItself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appClipTestAppClipItself.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2BDCB42AED23B3004E9D14 /* appClipTestAppClipItselfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appClipTestAppClipItselfApp.swift; sourceTree = "<group>"; };
+		DD2BDCB62AED23B3004E9D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD2BDCB82AED23B4004E9D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2BDCBB2AED23B4004E9D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2BDCBD2AED23B4004E9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2BDCBE2AED23B4004E9D14 /* appClipTestAppClipItself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appClipTestAppClipItself.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD2BDC9A2AED1E25004E9D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BDCAF2AED23B3004E9D14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2BDC9F2AED1E25004E9D14 /* appClipTest */,
+				DD2BDCB32AED23B3004E9D14 /* appClipTestAppClipItself */,
 				DD2BDC9E2AED1E25004E9D14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2BDC9D2AED1E25004E9D14 /* appClipTest.app */,
+				DD2BDCB22AED23B3004E9D14 /* appClipTestAppClipItself.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +112,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DD2BDCB32AED23B3004E9D14 /* appClipTestAppClipItself */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BDCB42AED23B3004E9D14 /* appClipTestAppClipItselfApp.swift */,
+				DD2BDCB62AED23B3004E9D14 /* ContentView.swift */,
+				DD2BDCB82AED23B4004E9D14 /* Assets.xcassets */,
+				DD2BDCBD2AED23B4004E9D14 /* Info.plist */,
+				DD2BDCBE2AED23B4004E9D14 /* appClipTestAppClipItself.entitlements */,
+				DD2BDCBA2AED23B4004E9D14 /* Preview Content */,
+			);
+			path = appClipTestAppClipItself;
+			sourceTree = "<group>";
+		};
+		DD2BDCBA2AED23B4004E9D14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BDCBB2AED23B4004E9D14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +143,34 @@
 				DD2BDC992AED1E25004E9D14 /* Sources */,
 				DD2BDC9A2AED1E25004E9D14 /* Frameworks */,
 				DD2BDC9B2AED1E25004E9D14 /* Resources */,
+				DD2BDCC52AED23B4004E9D14 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD2BDCC02AED23B4004E9D14 /* PBXTargetDependency */,
 			);
 			name = appClipTest;
 			productName = appClipTest;
 			productReference = DD2BDC9D2AED1E25004E9D14 /* appClipTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DD2BDCB12AED23B3004E9D14 /* appClipTestAppClipItself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2BDCC22AED23B4004E9D14 /* Build configuration list for PBXNativeTarget "appClipTestAppClipItself" */;
+			buildPhases = (
+				DD2BDCAE2AED23B3004E9D14 /* Sources */,
+				DD2BDCAF2AED23B3004E9D14 /* Frameworks */,
+				DD2BDCB02AED23B3004E9D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appClipTestAppClipItself;
+			productName = appClipTestAppClipItself;
+			productReference = DD2BDCB22AED23B3004E9D14 /* appClipTestAppClipItself.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +183,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					DD2BDC9C2AED1E25004E9D14 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD2BDCB12AED23B3004E9D14 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -116,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				DD2BDC9C2AED1E25004E9D14 /* appClipTest */,
+				DD2BDCB12AED23B3004E9D14 /* appClipTestAppClipItself */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +216,15 @@
 			files = (
 				DD2BDCA82AED1E26004E9D14 /* Preview Assets.xcassets in Resources */,
 				DD2BDCA52AED1E26004E9D14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BDCB02AED23B3004E9D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BDCBC2AED23B4004E9D14 /* Preview Assets.xcassets in Resources */,
+				DD2BDCB92AED23B4004E9D14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +240,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD2BDCAE2AED23B3004E9D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BDCB72AED23B3004E9D14 /* ContentView.swift in Sources */,
+				DD2BDCB52AED23B3004E9D14 /* appClipTestAppClipItselfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2BDCC02AED23B4004E9D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2BDCB12AED23B3004E9D14 /* appClipTestAppClipItself */;
+			targetProxy = DD2BDCBF2AED23B4004E9D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DD2BDCA92AED1E26004E9D14 /* Debug */ = {
@@ -267,6 +382,7 @@
 		DD2BDCAC2AED1E26004E9D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +412,7 @@
 		DD2BDCAD2AED1E26004E9D14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +439,70 @@
 			};
 			name = Release;
 		};
+		DD2BDCC32AED23B4004E9D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appClipTestAppClipItself/appClipTestAppClipItself.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appClipTestAppClipItself/Preview Content\"";
+				DEVELOPMENT_TEAM = MD322A3U2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appClipTestAppClipItself/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = appClipTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjaremic.appClipTest.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2BDCC42AED23B4004E9D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appClipTestAppClipItself/appClipTestAppClipItself.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appClipTestAppClipItself/Preview Content\"";
+				DEVELOPMENT_TEAM = MD322A3U2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appClipTestAppClipItself/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = appClipTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjaremic.appClipTest.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +520,15 @@
 			buildConfigurations = (
 				DD2BDCAC2AED1E26004E9D14 /* Debug */,
 				DD2BDCAD2AED1E26004E9D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2BDCC22AED23B4004E9D14 /* Build configuration list for PBXNativeTarget "appClipTestAppClipItself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2BDCC32AED23B4004E9D14 /* Debug */,
+				DD2BDCC42AED23B4004E9D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
