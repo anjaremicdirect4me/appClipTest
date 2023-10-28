@@ -57,6 +57,7 @@
 		DD2BDCBE2AED23B4004E9D14 /* appClipTestAppClipItself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appClipTestAppClipItself.entitlements; sourceTree = "<group>"; };
 		DD2BDCCA2AED2F55004E9D14 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = _config.yml; sourceTree = "<group>"; };
 		DD2BDCCB2AED3715004E9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD2BDCCD2AED43D4004E9D14 /* appClipTestAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appClipTestAppClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2BDCCA2AED2F55004E9D14 /* _config.yml */,
+				DD2BDCCD2AED43D4004E9D14 /* appClipTestAppClip.entitlements */,
 				DD2BDC9F2AED1E25004E9D14 /* appClipTest */,
 				DD2BDCB32AED23B3004E9D14 /* appClipTestAppClipItself */,
 				DD2BDC9E2AED1E25004E9D14 /* Products */,
