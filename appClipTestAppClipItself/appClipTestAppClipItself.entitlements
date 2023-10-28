@@ -4,6 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
+		<string>webcredentials:anjaremicdirect4me.github.io</string>
 		<string>applinks:anjaremicdirect4me.github.io</string>
 		<string>appclips:anjaremicdirect4me.github.io</string>
 	</array>

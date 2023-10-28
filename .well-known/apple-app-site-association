@@ -8,6 +8,9 @@
             }
         ]
     },
+    "webcredentials": {
+      "apps": [ "MD322A3U2Z.com.anjaremic.appClipTest"  ]
+    },
     "appclips": {
         "apps": [
             "MD322A3U2Z.anjaremic.appClipTest.Clip"
