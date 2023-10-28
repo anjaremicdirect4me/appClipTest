@@ -55,7 +55,7 @@
 		DD2BDCBB2AED23B4004E9D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD2BDCBD2AED23B4004E9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2BDCBE2AED23B4004E9D14 /* appClipTestAppClipItself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appClipTestAppClipItself.entitlements; sourceTree = "<group>"; };
-		DD2BDCC62AED2A68004E9D14 /* apple-app-site-association.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "apple-app-site-association.json"; sourceTree = "<group>"; };
+		DD2BDCC62AED2A68004E9D14 /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		DD2BDC942AED1E25004E9D14 = {
 			isa = PBXGroup;
 			children = (
-				DD2BDCC62AED2A68004E9D14 /* apple-app-site-association.json */,
+				DD2BDCC62AED2A68004E9D14 /* apple-app-site-association */,
 				DD2BDC9F2AED1E25004E9D14 /* appClipTest */,
 				DD2BDCB32AED23B3004E9D14 /* appClipTestAppClipItself */,
 				DD2BDC9E2AED1E25004E9D14 /* Products */,
