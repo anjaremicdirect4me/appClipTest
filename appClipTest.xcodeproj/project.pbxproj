@@ -56,6 +56,7 @@
 		DD2BDCBD2AED23B4004E9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2BDCBE2AED23B4004E9D14 /* appClipTestAppClipItself.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appClipTestAppClipItself.entitlements; sourceTree = "<group>"; };
 		DD2BDCC62AED2A68004E9D14 /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
+		DD2BDCCA2AED2F55004E9D14 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = _config.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		DD2BDC942AED1E25004E9D14 = {
 			isa = PBXGroup;
 			children = (
+				DD2BDCCA2AED2F55004E9D14 /* _config.yml */,
 				DD2BDCC62AED2A68004E9D14 /* apple-app-site-association */,
 				DD2BDC9F2AED1E25004E9D14 /* appClipTest */,
 				DD2BDCB32AED23B3004E9D14 /* appClipTestAppClipItself */,
