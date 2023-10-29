@@ -3,17 +3,17 @@
         "details": [
             {
                 "appIDs": [
-                    "MD322A3U2Z.com.anjaremic.appClipTest"
+                    "MD322A3U2Z.info.digitopia.appClipTest"
                 ]
             }
         ]
     },
     "webcredentials": {
-      "apps": [ "MD322A3U2Z.com.anjaremic.appClipTest"  ]
+      "apps": [ "MD322A3U2Z.info.digitopia.appClipTest"  ]
     },
     "appclips": {
         "apps": [
-            "MD322A3U2Z.anjaremic.appClipTest.Clip"
+            "MD322A3U2Z.info.digitopia.appClipTest.Clip"
         ]
     }
 }
